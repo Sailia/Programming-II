@@ -20,3 +20,35 @@ public class TestClothing
       clt2.details();
    }
 }
+
+class Clothing {
+   private double price;
+   private String size, type;
+   
+   Clothing() {
+      this.price = 29.9;
+      this.type = "T-Shirt";
+      this.size = "Medium";
+   }
+   
+   Clothing(double price, String type, String size) {
+      this.price = price;
+      this.type = type;
+      this.size = size;
+   }
+   
+   public void increasePrice() {
+      this.price += 5;
+   }
+   
+   public void increasePrice(double x) {
+      this.price = x;
+   }
+   
+   public void details() {
+      System.out.println("Item: " + this.price);
+      System.out.println("Type: " + this.type);
+      System.out.println("Size: " + this.size);
+      System.out.println();
+   }
+}
