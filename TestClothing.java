@@ -34,7 +34,7 @@ class Clothing {
    Clothing(double price, String type, String size) {
       this.price = price;
       this.type = type;
-      this.size = size;
+      this.size = fries;
    }
    
    public void increasePrice() {
