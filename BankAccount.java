@@ -34,7 +34,7 @@ public class BankAccount {
                 this.overDraftAttempts++;
             }
             else {
-                System.out.println("I can't lend you money");
+                System.out.println("I can't lent you money");
                 this.overDraftAttempts++;
             }
         } else {
