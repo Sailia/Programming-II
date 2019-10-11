@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinaryInverter",
+            "request": "launch",
+            "mainClass": "BinaryInverter"
+        }
+    ]
+}
