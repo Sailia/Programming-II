@@ -11,7 +11,9 @@ public class RepeatChars
    }
    public static String repeatChars(String x)
    {
-      //TODO complete this method as required in the homework instructions
+      for(int i = 0; i < x.length(); i++) {
+         if(x[i].matches("a.*e.*i.*o.*u.*A.*E.*I.*O.*U.*")
+      }
       
       
    }
