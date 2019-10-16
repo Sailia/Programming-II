@@ -11,10 +11,13 @@ public class RepeatChars
    }
    public static String repeatChars(String x)
    {
+      String repeated = "";
       for(int i = 0; i < x.length(); i++) {
-         if(x[i].matches("a.*e.*i.*o.*u.*A.*E.*I.*O.*U.*")
+         if(x(i).matches(".*[aeiouAEIOU].*")) {
+            repeated += x(i)
+         } 
       }
-      
+      return x;
       
    }
 }
