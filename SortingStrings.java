@@ -12,7 +12,7 @@ public class SortingStrings {
         String smallest = "";
         int count = 0, smallestIndex = 0;
         
-
+        //write code to find the first word in the array thats not a hyphen************
         while(count < sortedSplit.length) {
             
             // Find a starting "smallest" to compare other words with
