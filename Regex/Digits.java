@@ -18,6 +18,6 @@ public class Digits
    
    public static boolean hasOnlyDigits(String s)
 	{
-		return s.matches("^-{0,1}[0-9]*$");
+		return s.matches("^-?[0-9]*$");
 	}
 }
