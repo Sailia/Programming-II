@@ -2,7 +2,7 @@ public class Movie extends Video {
    private int length;
    private String director;
    
-   public Movie(int length, String director, String title, int awardsWon) {
+   public Movie(String title, int awardsWon, int length, String director) {
       super(title, awardsWon);
       this.length = length;
       this.director = director;

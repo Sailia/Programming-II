@@ -1,7 +1,7 @@
 public class TVShow extends Video {
    private int numEpisodes, startYear;
    
-   public TVShow(int numEpisodes, int startYear, String title, int awardsWon) {
+   public TVShow(String title, int awardsWon, int numEpisodes, int startYear) {
       super(title, awardsWon);
       this.numEpisodes = numEpisodes;
       this.startYear = startYear;
